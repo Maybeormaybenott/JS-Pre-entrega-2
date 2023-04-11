@@ -1,0 +1,30 @@
+.headerproductos {
+    text-align: center;
+    background-color: $color-principal;
+    border-radius: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .productos {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  
+    .grid-text {
+      text-align: center;
+    }
+  }
+  

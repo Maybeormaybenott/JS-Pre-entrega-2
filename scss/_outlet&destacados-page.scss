@@ -1,0 +1,63 @@
+.placestart {
+    place-content: flex-start;
+  }
+  
+  section {
+    article {
+      width: 100%;
+    }
+  }
+  
+  #sortby {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+  }
+  
+  .block-title {
+    color: $color-principal;
+  }
+  
+  .item {
+    display: flex;
+    
+  }
+  
+  .preview {
+    a {
+      img {
+        width: 100px;
+      }
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    span {
+      color: $color-negro;
+    }
+  }
+  
+  h3 {
+    a {
+      color: $color-negro;
+      font-size: 22px;
+    }
+  }
+  
+  ul li a span {
+    font-size: 20px;
+  }
+  
+  .card-title {
+    font-size:26px;
+    color: #ffc107;
+    &:hover {
+      color: #000000;
+    }
+  }
+  
+  .card-text {
+    font-size: 20px;
+  }
+  

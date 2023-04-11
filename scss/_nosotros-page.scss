@@ -1,0 +1,61 @@
+/*nuestras marcas*/
+
+.text-marcas {
+    text-align: center;
+    font-size: 25px;
+    h2, h3, p{
+      background-color: $color-principal;
+      border: 2px;
+      border-radius: 40px;
+      
+      
+    }
+  }
+  
+  .text-marcs {
+    width: 50%;
+    margin: auto;
+    
+  }
+  
+  #modayaccesorios {
+    background-color: $color-principal;
+    color: $color-negro;
+    border: 2px;
+    border-radius: 10px;
+      
+    
+  }
+  
+  .imgs-marcas {
+    display: grid;
+    width: 100%;
+    gap: 40px;
+  }
+  
+  
+  
+  .center {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  
+  /*Quienes somos*/
+  
+  .text-h1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: $color-principal;
+    border: 2px;
+    border-radius: 40px;
+    font-size: 36px;
+  }
+  
+  div p  {
+    font-size: 24px;
+  }
+  
+  
+  
