@@ -5,31 +5,50 @@
   font-family: "Oswald", sans-serif;
 }
 
-#menu, #menu-check {
+#menu,
+#menu-check {
   display: none;
 }
 
 @media only screen and (max-width: 992px) {
-  header div.header {
-    display: flex;
-    place-content: space-between;
+  form.search {
+    display: inline;
+    margin: 0 auto;
   }
-  .log-bar {
-    margin: 5px;
-    display: flex;
-    width: 40%;
+  span.navbar-brand {
+    margin: 0 auto;
   }
-  .drop-responsive {
-    display: block;
-    text-align: end;
-    justify-content: right;
-    align-items: self-end;
+  div.dropdown {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  span.navbar-brand {
+    margin: 0 auto;
+  }
+  div.dropdown {
+    margin: 0 auto;
+  }
+  .search {
+    display: inline;
   }
   #menu-check:not(:checked) ~ .nav {
     display: none;
   }
   #menu-check:checked ~ .nav {
     display: block;
+  }
+  #menu {
+    display: block;
+    color: #ffc107;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 3px solid #ffc107;
+    border-radius: 0.3em;
+    position: sticky;
+    margin-top: 15px;
+    width: 75px;
+    text-align: center;
   }
 }
 header {
@@ -40,15 +59,15 @@ header {
   font-size: 25px;
 }
 
+.search {
+  font-size: 20px;
+}
+
 .navbar-brand {
   font-size: 25px;
   margin-left: 40px;
   margin-right: 50px;
   color: #ffc107;
-}
-
-.carousel-item img {
-  width: 100%;
 }
 
 .headerproductos {
@@ -275,6 +294,15 @@ div p {
 }
 
 .hiringimg {
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item img {
   width: 100%;
 }
 
