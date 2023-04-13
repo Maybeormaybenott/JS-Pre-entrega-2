@@ -70,104 +70,121 @@
           </a>
           <span class="navbar-brand mb-0 h1">Moda y Accesorios</span>
 
-          <ul
-            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
-          >
-            <li>
-              <a href="/index.html" class="nav-link px-3 text-white">Inicio</a>
-            </li>
-            <div class="dropdown">
-              <button
-                class="btn btn-dark dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Productos
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="../sub-pages/destacados.html"
-                    >Destacados</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item disabled" href="#"
-                    >Caravanas- Próximamente</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item disabled" href="#"
-                    >Anillos- Próximamente</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item disabled" href="#"
-                    >Pulseras- Próximamente</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <li>
-              <a href="../outlet.html" class="nav-link px-3 text-white"
-                >Outlet</a
-              >
-            </li>
-            <div class="dropdown">
-              <button
-                class="btn btn-dark dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Nosotros
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="../sub-pages/quienesomos.html"
-                    >¿Quienes somos?</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="../sub-pages/nuestrasmarcas.html"
-                    >Nuestras marcas</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button
-                class="btn btn-dark dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Contacto
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="../contacto.html">Contacto </a>
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="../sub-pages/trabajaconosotros.html"
-                    >Trabajá con nosotros
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </ul>
+          <div class="menu-hamburguesa col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <input type="checkbox" id="menu-check" />
+            <label class="mt-3" id="menu" for="menu-check">
+              <span id="menu-abrir">&#9776;</span>
+              <!-- <span id="menu-cerrar">X</span>  PARA AGREGAR -->
+            </label>
+
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li>
+                <a href="/index.html" class="nav-link px-3 text-white"
+                  >Inicio</a
+                >
+              </li>
+              <div class="dropdown">
+                <button
+                  class="btn btn-dark dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="pages/sub-pages/destacados.html"
+                      >Destacados</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
+                      >Caravanas- Próximamente</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
+                      >Anillos- Próximamente</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
+                      >Pulseras- Próximamente</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <li>
+                <a href="./pages/outlet.html" class="nav-link px-3 text-white"
+                  >Outlet</a
+                >
+              </li>
+              <div class="dropdown">
+                <button
+                  class="btn btn-dark dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Nosotros
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./pages/sub-pages/quienesomos.html"
+                      >¿Quienes somos?</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./pages/sub-pages/nuestrasmarcas.html"
+                      >Nuestras marcas</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button
+                  class="btn btn-dark dropdown-toggle"
+                  º
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contacto
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../pages/contacto.html"
+                      >Contacto
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../pages/sub-pages/trabajaconosotros.html"
+                      >Trabajá con nosotros
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </div>
 
           <form
-            class="search col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"
+            class="search col-sm-auto col-md-auto col-lg-auto mb-3 mb-lg-3 me-lg-3 mt-md-3 mt-sm-3 mt-3"
             role="search"
           >
             <input
               type="search"
-              class="form-control form-control-dark text-bg-white"
+              class="search form-control form-control-dark text-bg-white"
               placeholder="Buscar..."
               aria-label="Search"
             />
