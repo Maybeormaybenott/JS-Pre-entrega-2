@@ -8,7 +8,7 @@ function solicitarEdad() {
   let edad = prompt("Ingrese su edad");
   if (edad >= 18) {
     console.log("Podes comprar tranquilamente");
-    alert("Felicitaciones, continúa con el proceso de compra");
+    alert("Felicitaciones, continúa con el proceso de compra.");
   } else if (edad < 18 || edad !== Number) {
     console.log(`Tu edad es ${edad}, no podés comprar.`);
   }
