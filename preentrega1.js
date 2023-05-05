@@ -1,6 +1,8 @@
 function solicitarNombreyApellido() {
   let nombre = prompt("Ingrese su nombre y apellido");
   console.log(`El nombre del usuario es ${nombre}`);
+
+
 }
 
 function solicitarEdad() {
@@ -85,5 +87,3 @@ solicitarNombreyApellido();
 solicitarEdad();
 comprarProductos();
 calcularPrecioTotal();
-
-// NO ES MUCHO PERO ES TRABAJO HUMILDE JAJA
